@@ -9,3 +9,9 @@ for (let i = 1; i <= 15; i++) {
   else 
   console.log(`${i} - "ASAP"`);
 }
+
+let str = "ASAP Frontend";
+
+for (let i = 0; i < str.length; ++i) {
+    console.log (str[i])
+}
