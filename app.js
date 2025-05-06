@@ -18,3 +18,32 @@ function convertUsdToAud(dollars) {
 }
 
 console.log(convertUsdToAud(500));
+
+function singUp(
+  email,
+  password,
+  name,
+  discord,
+  subscription,
+  lessonsCompleted
+) {
+  let user = {
+    email: email,
+    password: password,
+    name: name,
+    discord: discord,
+    subscription: subscription,
+    lessonsCompleted: lessonsCompleted,
+  };
+
+  console.log(user);
+}
+
+singUp(
+  "asif@gmail.com",
+  "asdk123",
+  "Asif Hussain",
+  "asifhussain",
+  "VIP+",
+  [1, 2]
+);
